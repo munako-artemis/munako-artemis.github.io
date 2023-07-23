@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html>
+<head>
+        <!-- Primary Meta Tags -->
+    <title>Munachu Artemis - Home</title>
+    <meta name="title" content="Munachu Artemis - Home">
+    <meta name="description" content="RCJ SoccerLightWeightに参加している宗中アルテミスが、ロボットや技術についてまとめているウェブサイトです。ハードウェアからソフトウェアまで、様々な知識や備忘録を公開しています。">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://asahi-rcj.github.io/">
+    <meta property="og:title" content="Munachu Artemis - Home">
+    <meta property="og:description" content="RCJ SoccerLightWeightに参加している宗中アルテミスが、ロボットや技術についてまとめているウェブサイトです。ハードウェアからソフトウェアまで、様々な知識や備忘録を公開しています。">
+    <meta property="og:image" content="">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://asahi-rcj.github.io/">
+    <meta property="twitter:title" content="Munachu Artemis - Home">
+    <meta property="twitter:description" content="RCJ SoccerLightWeightに参加している宗中アルテミスが、ロボットや技術についてまとめているウェブサイトです。ハードウェアからソフトウェアまで、様々な知識や備忘録を公開しています。">
+    <meta property="twitter:image" content="">
+    <meta http-equiv="Content-Type" content="text/html"; charset=utf-8>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css">
+    <link href="css/animation.css" rel="stylesheet" type="text/css">
+    <link href="css/loading.css" rel="stylesheet" type="text/css">
+    <link href="css/sidebar.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/footerFixed.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+<script>include_loading();</script>
+<script>include_header();</script>
+<img src="img/Asahi.jpg">
+<div class="wrapper">
+    <div class="main fadeUp delay-075s">
+        <div id="content"></div>
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script>
+          axios.get('content.md').then(response => document.getElementById('content').innerHTML = marked.parse(response.data));
+        </script>
+    </div>
+    <script>include_sidebar();</script>
+</div>
+<script>include_footer();</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+<script src="js/swiper.js"></script>
+</body>
+</html>
