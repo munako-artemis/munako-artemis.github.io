@@ -18,7 +18,7 @@
 実は前回の紹介記事と機体自体は変えてないので、追加で発注した分の基板の紹介になります～<br>
 今回もスポンサーのJLCPCB様に発注を無償で行っていただいています。また、今は新規ユーザーは＄54のクーポンがもらえるので是非JLCPCBを利用してみてください！！
 詳しくは[こちら](https://jlcpcb.com/JPV)をのぞいてみてください！<br>
-JLCPCBでの基盤の発注の仕方は[こちら](https://asahi-rcj.github.io/blog/20221230/index.html)で解説しているのでぜひ覗いてみてください！！
+JLCPCBでの基盤の発注の仕方は[こちら](https://munako-artemis.github.io/blog/20221230/index.html)で解説しているのでぜひ覗いてみてください！！
 <br>
 <br>
 
