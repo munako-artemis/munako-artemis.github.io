@@ -72,6 +72,35 @@ header ul li a{
     header ul{
         float:none;
         display:inline;
+        padding:0px;
+    }
+    header ul li{
+        width:inherit;
+        text-align:center;
+        height: 35px;
+        padding:20px;
+        padding-top:0px;
+    }
+    header ul li a{
+        display:block;
+        height:100%;
+        font-size:25px;
+        padding:10px;
+    }
+}
+
+@media screen and (max-width:480px){
+    header{
+        display:inline-block;
+        width:100%;
+        height:auto;
+    }
+    header .header_icon{
+        text-align:center;
+    }
+    header ul{
+        float:none;
+        display:inline;
     }
     header ul li{
         width:inherit;
