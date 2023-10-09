@@ -15,8 +15,8 @@
 
 .article_list ul li{
     width:100%;
-    width:420px;
-    height:490px;
+    width:330px;
+    height:400px;
     margin-left:10px;
     margin-right:10px;
     margin-bottom:50px;
@@ -63,7 +63,7 @@
 .article_pic img{
     width:96%;
     height:96%;
-    height:250px;
+    height:190px;
     border-radius:15px;
     margin: auto;
     display: block;
@@ -71,7 +71,7 @@
 }
 
 .article_detail{
-    height:230px;
+    height:66px;
     font-size: 14px;
     padding-top:15px;
     padding-left:12px;
@@ -79,7 +79,7 @@
 }
 
 .article_title{
-    font-size: 30px;
+    font-size: 25px;
     font-weight:bold;
     padding-top:4px;
     padding-left:10px;
@@ -90,16 +90,16 @@
 }
 
 .article_describe{
-    font-size: 17px;
+    font-size: 15px;
     padding-left:15px;
     padding-right:15px;
     padding-top:10px;
-    height:40%;
+    height:100%;
     line-height: 1.4;
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 5;
+    -webkit-line-clamp: 3;
 }
 
 @media screen and (max-width: 480px) {

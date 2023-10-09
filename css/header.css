@@ -4,9 +4,13 @@
 header{
     display:flex;
     color:rgb(236, 236, 236);
-    height:80px;
+    height:70px;
     background: linear-gradient(170deg, 
         rgb(0, 0, 0), rgb(17, 36, 70) 70%, rgb(62, 74, 88) );
+}
+
+header img{
+    height:70px;
 }
 
 header ul{
@@ -14,6 +18,7 @@ header ul{
     display:flex;
     padding-left: 0;
     margin-top:0px;
+    height:70px;
 }
 
 header ul li{
@@ -36,10 +41,12 @@ header ul li:focus-within{
 
 header ul li a{
     color:white;
-    font-size:30px;
+    font-family:'Quicksand', sans-serif;
+    font-weight:bold;
+    font-size:27px;
     height:100%;
-    padding-top:21px;
-    padding-bottom:21px;
+    padding-top:17px;
+    padding-bottom:17px;
 }
 
 @keyframes HeaderhoverAnime {
