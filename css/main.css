@@ -1,0 +1,66 @@
+/*Main Contentsに関するファイルです。*/
+@charset "utf-8";
+@import url(https://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+
+body{
+    overflow-y:scroll;
+    font-family: 'Noto Sans Japanese', sans-serif;
+    background: rgb(46, 46, 46);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    color:white;
+    margin:0;
+}
+
+img{
+    max-width:100%;  
+    vertical-align:bottom;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration:none;
+    color:white;
+}
+
+.main{
+    padding-top:30px;
+    margin:0 auto;
+    width:80%;
+    font-size:12px;
+    color: white;
+}
+
+.content{
+    margin:0 auto;
+    width:85%;
+    color: white;
+    font-size: 22px;
+}
+
+.headline {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    border-left: 8px solid rgb(240, 240, 240);
+    padding-left: 20px;
+    margin-top:50px;
+}
+
+@media screen and (max-width: 480px) {
+    .main{
+        font-size:20px;
+        padding: 0px;
+        margin:0 auto;
+        width:90%;
+    }
+
+    .content{
+        padding-top:10px;
+        width:100%;
+    }
+}

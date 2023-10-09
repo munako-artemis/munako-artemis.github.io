@@ -5,7 +5,7 @@
 # ArduinoでL3GD20を動かしてみた
 
 <br>
-<img src="title.png" class="postpic" height=600px width=300px> 
+<img src="title.png" class="postpic"> 
 <br>
 
 ## 初めに

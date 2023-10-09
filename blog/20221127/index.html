@@ -6,27 +6,25 @@
     <meta http-equiv="Content-Type" content="text/html"; charset=utf-8>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
     <title>ロボチャレ2023 in 福岡 参戦！！</title>
-    <link href="../../style.css" rel="stylesheet" type="text/css">
-    <link href="../../css/animation.css" rel="stylesheet" type="text/css">
-    <link href="../../css/loading.css" rel="stylesheet" type="text/css">
-    <link href="../../css/sidebar.css" rel="stylesheet" type="text/css">
-    <link href="../../css/posts.css" rel="stylesheet" type="text/css">
+    <link href="../../css/main.css" rel="stylesheet" type="text/css">
+    <link href="../../css/blog.css" rel="stylesheet" type="text/css">
+    <link href="../../css/header.css" rel="stylesheet" type="text/css">
+    <link href="../../css/footer.css" rel="stylesheet" type="text/css">
+    <link href="../../css/article.css" rel="stylesheet" type="text/css">
+
     <script src="../../js/jquery-3.6.0.min.js"></script>
-    <script src="../../js/footerFixed.js"></script>
     <script src="../../js/main.js"></script>
 </head>
 <body>
 <script>include_header();</script>
-<div class="wrapper">
-        <div class="fadeUp delay-075s article" id="content"></div>
+    <div class="article">
+        <div id="content"></div>
         <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
         <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
         <script>
             axios.get('content.md').then(response => document.getElementById('content').innerHTML = marked.parse(response.data));
         </script>
-    <script>include_sidebar();</script>
-</div>
-<script>include_commentfield();</script>
+    </div>
 <script>include_footer();</script>
 </body>
 </html>
