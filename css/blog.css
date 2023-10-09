@@ -63,7 +63,6 @@
 .article_pic img{
     width:96%;
     height:96%;
-    height:190px;
     border-radius:15px;
     margin: auto;
     display: block;
@@ -106,7 +105,7 @@
     .article_list ul li{
         width:100%;
         width:420px;
-        height:370px;
+        height:420px;
         margin-left:10px;
         margin-right:10px;
         margin-bottom:20px;
@@ -131,7 +130,6 @@
     
     .article_pic img{
         width:96%;
-        height:180px;
         border-radius:15px;
         margin: auto;
         display: block;
@@ -153,7 +151,7 @@
         overflow: hidden;
         display: -webkit-box;
         -webkit-box-orient: vertical;
-        -webkit-line-clamp: 2;
+        -webkit-line-clamp: 3;
     }
 
     .article_describe{
@@ -163,6 +161,6 @@
         overflow: hidden;
         display: -webkit-box;
         -webkit-box-orient: vertical;
-        -webkit-line-clamp: 2;
+        -webkit-line-clamp: 3;
     }
 }

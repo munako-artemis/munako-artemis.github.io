@@ -87,44 +87,8 @@
     color:rgb(168, 206, 255);
 }
 
-@media screen and (max-width:972px){
 
-    .team_member_introduction{
-        width:100%;
-    }
-
-    .team_member_profile {
-        width:100%;
-    }
-
-    .member_detail{
-        width:100%;
-    }
-
-    .member_main{
-        display:block;
-        padding-bottom:20px;
-    }
-
-    .member_job{
-        margin-top:0px;
-    }
-
-    .member_logo{
-        width:30vmin;
-        max-width:200px;
-        min-width:110px;
-        padding-right:20px;
-    }
-
-    .member_logo img{
-        width:20vmin;
-        min-width:100px;
-        padding-right:0px;
-    }
-}
-
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 972px) {
 
     .catchcopy {
         font-size: 26px;
@@ -168,9 +132,33 @@
     }
     
     .member_logo img{
-        width:40vmin;
+        width:70vmin;
         min-width:50px;
         padding-right:0px;
+    }
+
+    .season_name{
+        padding-left:20px;
+        font-size:17px;
+    }
+    
+    .tournament_name{
+        margin-left:40px;
+        border-left:4px solid rgb(55, 119, 128);
+        border-radius:2px;
+        padding-left:10px;
+        font-size:17px;
+        margin-bottom:10px;
+        word-break: keep-all;
+        overflow-wrap: break-word;
+    }
+
+    .tounament_result{
+        padding-left:80px;
+        font-size:16px;
+        margin-bottom:20px;
+        word-break: keep-all;
+        overflow-wrap: break-word;
     }
 }
 
