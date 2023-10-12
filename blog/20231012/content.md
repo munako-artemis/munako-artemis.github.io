@@ -28,14 +28,15 @@
 今なら<u>新規ユーザーに54$(記事制作時時価で約8000円)のクーポンを配布している</u>ようです。また、Twitterアカウントのフォロー+DMにより追加の10$クーポンを貰えるようです。<br>
 基板を作ってみたいという方はぜひJLCPCBさんを利用してはいかがでしょうか。以下にホームページとTwitterアカウントを記載しておきます。<br>
 
-#### JLCPCBのホームページ：https://jlcpcb.com/JPV<br>
-#### JLCPCBのTwitter(X)：https://twitter.com/JLCPCB_Japan
+#### JLCPCBのホームページ：[JLCPCB](https://jlcpcb.com/JPV) <br>
+#### JLCPCBのTwitter(X)：[JLCPCB_Japan](https://twitter.com/JLCPCB_Japan)
 <br>
 
 ## 基板紹介
 それでは早速今回僕が発注した基板について紹介していきたいと思います。
 
 ### 電源基板
+<img src="3.jpg" class="postpic">
 最初に紹介するのは電源基板です。<br>
 ロボカッパーならお馴染み(?)村田製作所のDCDCコンバーターを用いた電源回路になっています。<br>
 僕たちの使用用途でいえば、3セル(11.1v)のバッテリーの保護回路の搭載・DCDCを通したメイン基板(後述)の電源生成・モーター用の電源の生成の3つの機能を搭載しています。<br>
@@ -44,6 +45,7 @@
 <blockquote class="twitter-tweet" data-theme="dark"><p lang="ja" dir="ltr">間違い探し<br>何が間違っているんでしょうか(白目 <a href="https://t.co/JhFV5HfcgQ">pic.twitter.com/JhFV5HfcgQ</a></p>&mdash; a_sa_hi (@asahi_robocuper) <a href="https://twitter.com/asahi_robocuper/status/1709808914139943267?ref_src=twsrc%5Etfw">October 5, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### メイン基板
+<img src="1.jpg" class="postpic">
 次に紹介するのはメイン基板です。<br>
 メイン基板の役割としては、メインマイコン・ジャイロセンサ・カメラが主なものになります。
 カメラのフットプリントが間違っていたこと以外はうまくいってて良かったです。<br>
@@ -51,6 +53,7 @@
 そうそう、この基板が一番分かりやすいんですが、コネクタ付近にそのピンの用途を書いておくことで回路図を見る手間を省くことができるのでとてもお勧めです。みんなもシルク拘ろうぜ！<br>
 
 ### ラインセンサ基板
+<img src="2.jpg" class="postpic">
 最後に紹介するのはラインセンサ基板です。<br>
 昨年度の機体はラインセンサがあまり動いていなかったので、今回はちゃんと動かしてやろうと思い円形ラインとかいろいろしてました。結局一番完璧に動いた基板だったので良かったです。<br>
 今は別の機体の設計中なのでもう弄りませんが、もしかしたらこのサイズじゃちょっと小さいかなとか思ってます。多分ラインアウトする未来しか見えない(n敗)<br>
