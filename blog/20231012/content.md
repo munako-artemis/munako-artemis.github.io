@@ -1,4 +1,4 @@
-##### 公開:2023/10/11 更新:2023/10/11 writer:a_sa_hi([@asahi_robocuper](https://twitter.com/asahi_robocuper))
+##### 公開:2023/10/12 更新:2023/10/12 writer:a_sa_hi([@asahi_robocuper](https://twitter.com/asahi_robocuper))
 ---
 <br>
 
