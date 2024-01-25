@@ -5,7 +5,7 @@
 # 2024シーズン機体基板紹介
 
 <br>
-<img src="サムネ.png" class="postpic"> 
+<img src="title.png" class="postpic"> 
 <br>
 
 ## 初めに
