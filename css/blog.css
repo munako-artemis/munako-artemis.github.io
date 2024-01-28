@@ -29,6 +29,28 @@
     animation:posthoveranime 0.3s forwards;
 }
 
+th,td{
+    padding: 10px;
+    padding-right : 100px;
+}
+
+th{
+    font-size : 22px;
+    padding-left : 15px;
+    background-color: rgb(65, 65, 65);
+}
+tr{
+    background-color: rgb(65, 65, 65);
+}
+tr:nth-child(odd){
+    background-color: rgb(53, 53, 53);
+}
+
+
+table {
+    border-collapse: collapse;
+}
+
 @keyframes posthoveranime {
     0%{
         transform:scale(1.00);

@@ -27,25 +27,19 @@
 
 ## ロボットについて
 ---
-### Robo.1<br>
-メインマイコン&emsp;&emsp;&emsp;                :&emsp;TJ3B Loader 2620<br>
-モータードライバ&emsp;&emsp;                    :&emsp;DAISEN DSR-1202<br>
-モーター&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;    :&emsp;JMP-BE-3561 x 4<br>
-ジャイロセンサ&emsp;&emsp;&emsp;                :&emsp;MPU6050<br>
-ジャイロセンサ処理&emsp;                        :&emsp;Seeeduino Xiao<br>
-ボールセンサ&emsp;&emsp;&emsp;&emsp;            :&emsp;TSSP58038 x 8<br>
-ボールセンサ処理&emsp;&emsp;                    :&emsp;Seeeduino Xiao<br>
-ラインセンサ&emsp;&emsp;&emsp;&emsp;            :&emsp;S4282-51 x 16<br>
-カメラ&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;:&emsp;OpenMV M7<br>
 
-### Robo.2<br>
-メインマイコン&emsp;&emsp;&emsp;                :&emsp;TJ3B Loader 2620<br>
-モータードライバ&emsp;&emsp;                    :&emsp;DAISEN DSR-1203<br>
-モーター&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;    :&emsp;RA250030-58Y91 x 4<br>
-ジャイロセンサ&emsp;&emsp;&emsp;                :&emsp;L3GD20H<br>
-ジャイロセンサ処理&emsp;                        :&emsp;Seeeduino Xiao<br>
-ボールセンサ&emsp;&emsp;&emsp;&emsp;            :&emsp;TSSP58038 x 6<br>
-ラインセンサ&emsp;&emsp;&emsp;&emsp;            :&emsp;S4282-51 x 8<br>
+| スペック | 名前 |
+| :--- | :--- |
+| メインマイコン &nbsp;&nbsp;&nbsp;&nbsp;| TJ3B Loader 2620 |
+| モータードライバ | DAISEN DSR-1202 |
+| モーター | JMP-BE-3561 x 4 |
+| ジャイロセンサ | MPU6050 |
+| ジャイロセンサ処理 | Seeeduino Xiao |
+| ボールセンサ | TSSP58038 x 8 |
+| ボールセンサ処理 | Seeeduino Xiao |
+| ラインセンサ | S4282-51 x 16 |
+| カメラ | OpenMV M7 |
+
 <br>
 <br>
 
