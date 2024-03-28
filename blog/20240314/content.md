@@ -20,7 +20,7 @@
 ---
 この記事で紹介する基板はいつもと同じく、JLCPCB様にスポンサーとして無料同然で製造していただいています。<br>
 また、今は新規ユーザーは＄60のクーポンがもらえるので是非JLCPCBを利用してみてください！！<br>
-詳しくは[こちら](https://jlcpcb.com/JPV?from=VGPJP&gad_source=1&gclid=Cj0KCQiAh8OtBhCQARIsAIkWb6-Nsn19GPWQXA-fvZVW8wMP9Eka_3Mpn_2V5Xhsw0oPhY9CmHIowX4aAkU3EALw_wcB)をのぞいてみてください！
+詳しくは[こちら](https://jlcpcb.com/JPV?from=VGPJP&gad_source=1&gclid=Cj0KCQiAh8OtBhCQARIsAIkWb6-Nsn19GPWQXA-fvZVW8wMP9Eka_3Mpn_2V5Xhsw0oPhY9CmHIowX4aAkU3EALw_wcB)をのぞいてみてください！また、JLCPCBの日本語のサイトは[こちら](https://jlcpcb.jp/)です。<br>
 基板の発注方法については[こちら](https://munako-artemis.github.io/blog/20221230/index.html)で解説しているのでぜひ覗いてみてください！！
 <br>
 <br>
